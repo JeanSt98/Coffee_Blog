@@ -293,12 +293,19 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+@media (min-width: 768px){
+    .formulario {
+        background-color: var(--blanco);
+        margin: -5rem auto 0 auto;
+        width: 95%;
+        padding: 5rem;
+    }
+}
 .formulario {
     background-color: var(--blanco);
     margin: -5rem auto 0 auto;
-    width: 95%;
-    padding: 5rem;
+    width: 100%;
+    padding: 5rem 0 0 0;
 }
 
 .campo {
